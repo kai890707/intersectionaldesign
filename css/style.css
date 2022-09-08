@@ -1,0 +1,619 @@
+* {
+  text-decoration: none !important;
+}
+.clearfloat {
+  clear: both;
+  height: 0;
+  font-size: 1px;
+  line-height: 0px;
+}
+input {
+  width: 100% !important;
+  line-height: 2.5 !important;
+  font-size: 20px;
+  padding-left: 5px;
+  vertical-align: middle;
+  border: solid 1px gray;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+input:focus {
+  outline: none !important;
+  border: solid 1px orange;
+}
+.submit-btn {
+  padding: 17px 40px;
+  line-height: 18px;
+  font-size: 18px;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  border-color: #f86011;
+  background-color: #f86011;
+  border-width: 0;
+  color: #fff;
+  outline: none !important;
+  line-height: 21px;
+}
+
+.submit-btn:hover {
+  border-color: #e9570b;
+  background-color: #e9570b;
+  color: #fff !important;
+}
+.member-img {
+  width: 250px;
+  aspect-ratio: auto 250 / 250;
+}
+.scrolled {
+  background-color: white !important;
+}
+.nav-link {
+  color: #1961d2 !important;
+}
+
+.nav-link:visited,
+.nav-link:link {
+  border-bottom: 2px solid transparent;
+  transition: all 0.6s;
+}
+
+/* .nav-link:hover, */
+.nav-link:active {
+  border-width: 100% !important;
+  border-bottom: 2px solid #1c9ccf !important;
+}
+.c-active{
+  border-width: 100% !important;
+  border-bottom: 2px solid #1c9ccf !important;
+}
+.c-btn-active{
+  border-radius: unset;
+  border-width: 100% !important;
+  border-bottom: 2px solid #1c9ccf !important;
+}
+
+
+.nav-item {
+  padding: 10px;
+}
+
+.inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+/* .dropdown:hover .dropdown-menu {
+  top: 90%;
+  left: 0;
+  display: block;
+} */
+
+/* .dropdown-toggle::after {
+
+  margin-left: 0.28em;
+    vertical-align: 0.2em; 
+    border-top: 0.4em solid;
+    border-right: 0.4em solid transparent;
+    border-bottom: 0;
+    border-left: 0.4em solid transparent;
+} */
+
+
+.dropdown-menu[data-bs-popper] {
+  top: 70%;
+  left: 60%;
+
+}
+
+.dropdown-menu {
+  margin-top: 10px !important;
+  padding: 20px !important;
+  border-radius: 5%;
+}
+
+.dropdown-item {
+  padding-top: 5px !important;
+  padding-bottom: 20px !important;
+  padding-left: 15px !important;
+  color: #1961d2 !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  transition: all 0.6s;
+}
+
+.dropdown-item:hover {
+  background-color: #fff !important;
+  color: orange !important;
+}
+.dropdown-item-active{
+  background-color: #fff !important;
+  color: orange !important;
+}
+.nav-item{
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px!important;
+}
+
+.main-section {
+  padding-top: 60px;
+  margin-top: 0px;
+  padding-right: 32px;
+  padding-bottom: 60px;
+  margin-bottom: 0px;
+  padding-left: 32px;
+}
+
+.main-section-left {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-section-left-ul {
+  font-size: 20px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.main-content {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-left: 17%;
+  padding-right: 17%;
+}
+
+.main-content-sub {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.banner-text-idea{
+  font-size: 30px;
+}
+@media screen and (max-width: 2660px) and (max-device-width: 2660px) {
+  .dropdown-menu{
+    width: 14%;
+  }
+}
+@media screen and (max-width: 1980px) and (max-device-width: 1980px) {
+
+  .card {
+    width: calc(100% - 2rem);
+    /* height: 665px !important; */
+  }
+  .custom_card {
+    height: 400px !important;
+    min-height: 400px !important; 
+  }
+  .banner-text-idea{
+    font-size: 30px;
+  }
+  .dropdown-menu{
+    width: 14%;
+  }
+}
+@media screen and (max-width: 1480px) and (max-device-width: 1480px) {
+  .main-content {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .main-content-sub {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    width: calc(100% - 2rem);
+    /* height: 665px !important; */
+  }
+  .custom_card {
+    height: 485px !important;
+    min-height: 485px !important; 
+  }
+  .banner-text-idea{
+    font-size: 25px;
+  }
+  .dropdown-menu{
+    width: 14%;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+  }
+}
+@media screen and (max-width: 1200px) and (max-device-width: 1200px) {
+  .banner-text-idea{
+    font-size: 23px;
+  }
+    .dropdown-menu{
+    width: 18%;
+  }
+}
+@media screen and (max-width: 1025px) and (max-device-width: 1025px) {
+  .main-content {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-content-sub {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    width: calc(100% - 2rem);
+    /* height: 385px !important;
+    min-height: 385px !important; */
+  }
+  .custom_card {
+
+    height: 385px !important;
+    min-height: 385px !important; 
+  }
+  .banner-text-idea{
+    font-size: 23px;
+  }
+    .dropdown-menu{
+    width: 18%;
+  }
+}
+
+
+@media screen and (max-width: 992px) and (max-device-width: 992px) {
+  .main-content {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-content-sub {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    width: calc(100% - 2rem);
+    /* height: 665px !important; */
+  }
+    .custom_card {
+    width: 100% !important;
+    height: 485px !important;
+  }
+  .banner-text-idea{
+    font-size: 23px;
+  }
+  .dropdown-menu{
+    width: 100%;
+  }
+  .dropdown-super{
+    padding-left: 10px !important;
+  }
+}
+@media screen and (max-width: 770px) and (max-device-width: 770px) {
+  .main-content {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-content-sub {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    width: calc(100% - 2rem);
+    /* height: 665px !important; */
+  }
+  .custom_card {
+    width: 100% !important;
+    height: 485px !important;
+  }
+    .banner-text-idea{
+    font-size: 23px;
+  }
+    .dropdown-menu{
+    width: 100%;
+  }
+    .dropdown-super{
+    padding-left: 10px !important;
+  }
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.card {
+  color: inherit !important;
+  cursor: pointer !important;
+  width: 100%;
+  /* width: calc(100% - 2rem); */
+  /* min-width: calc(100% - 2rem); */
+  /* height: 485.25px; */
+  /* height: auto!important; */
+  height: 665px;
+  /* min-height: 500px !important; */
+  perspective: 1000px !important;
+
+  position: relative !important;
+  background-clip: none !important;
+  border-width: 0 !important;
+}
+
+/* @media screen and (max-width: 800px) {
+        .card {
+          width: calc(50% - 2rem);
+        }
+      } */
+@media screen and (max-width: 500px) and (max-device-width: 500px) {
+  .main-content {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-section {
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  .main-content-sub {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    width: 100%;
+  }
+  .custom_card {
+    width: 100% !important;
+    height: 485px !important;
+  }
+    .dropdown-menu{
+    width: 100%;
+  }
+    .dropdown-super{
+    padding-left: 10px !important;
+  }
+}
+@media screen and (max-width: 375px) and (max-device-width: 375px) {
+  .main-content {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-section {
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  .main-content-sub {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    width: 100% !important;
+    height: 700px !important;
+  }
+  .custom_card {
+    width: 100% !important;
+    height: 600px !important;
+  }
+  .banner-text-idea{
+    font-size: 20px;
+  }
+    .dropdown-menu{
+    width: 100%;
+  }
+    .dropdown-super{
+    padding-left: 10px !important;
+  }
+}
+
+@media screen and (max-width: 320px) and (max-device-width: 320px) {
+  .main-content {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-content-sub {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-section {
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  .card {
+    width: 100% !important;
+    height: 850px !important;
+  }
+  .custom_card {
+    width: 100% !important;
+    height: 485px !important;
+  }
+    .banner-text-idea{
+    font-size: 18px;
+  }
+    .dropdown-menu{
+    width: 100%;
+  }
+    .dropdown-super{
+    padding-left: 10px !important;
+  }
+}
+
+@media screen and (max-width: 280px) and (max-device-width: 280px) {
+  .main-content {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-content-sub {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-section {
+    padding-right: 0px;
+
+    padding-left: 0px;
+  }
+  .card {
+    width: 100% !important;
+    height: 1000px !important;
+  }
+    .dropdown-menu{
+    width: 100%;
+  }
+    .dropdown-super{
+    padding-left: 10px !important;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+  only screen and (min--moz-device-pixel-ratio: 3),
+  only screen and (-o-min-device-pixel-ratio: 3/1),
+  only screen and (min-device-pixel-ratio: 3) {
+  .main-content {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-content-sub {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    width: 100% !important;
+    height: 850px !important;
+  }
+  .dropdown-super{
+    padding-left: 10px !important;
+  }
+}
+/* 2532x1170 pixels at 460ppi */
+/* @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .main-content {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    width: 100% !important;
+    height: 850px !important;
+  }
+} */
+.front,
+.back {
+  display: flex;
+  border-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* height: auto;
+  min-height: 100%; */
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: ease-in-out 600ms;
+  outline: none;
+}
+
+.front {
+  background-size: cover;
+  padding: 2rem;
+  font-size: 1.618rem;
+  font-weight: 600;
+  color: #fff;
+  overflow: hidden;
+  font-family: Poppins, sans-serif;
+}
+
+.front:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background: linear-gradient(135deg, #1a9be6, #1a57e6); */
+  background: #fff;
+  opacity: 0;
+  z-index: -1;
+}
+
+.card:hover .front {
+  transform: rotateY(180deg);
+}
+
+.card:nth-child(even):hover .front {
+  transform: rotateY(-180deg);
+}
+
+.back {
+  background: #000;
+  transform: rotateY(-180deg);
+  padding: 0 2em;
+  color: #fff;
+}
+
+.back .button {
+  background: linear-gradient(135deg, #1a9be6, #1a57e6);
+}
+
+.back .button:before {
+  box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
+  background-color: rgba(26, 87, 230, 0.25);
+}
+
+.card:hover .back {
+  transform: rotateY(0deg);
+}
+
+.card:nth-child(even) .back {
+  transform: rotateY(180deg);
+}
+
+
+.dropdown-toggle::after {
+    display: none;
+    margin-left: 0;
+    vertical-align: 0;
+    content: "";
+    border-top: 0 solid;
+    border-right: 0 solid transparent;
+    border-bottom: 0;
+    border-left: 0 solid transparent;
+}
