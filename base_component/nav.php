@@ -24,18 +24,49 @@
                   <li class="nav-item  me-2">
                       <a class="nav-link" href="workshops.php">工作坊</a>
                   </li>
-                  <!-- Example split danger button -->
                   <li class="nav-item  me-2">
                       <!-- style="display: inline-flex;position:relative" -->
                       <div class=" row m-0">
-                          <a class=" nav-link col-10" id="nav-menu"  href="digital-experience.php" style="border-radius: unset;">
+                          <a class=" nav-link col-10" id="nav-menu" href="digital-experience.php" style="border-radius: unset;">
                               數位體驗
                           </a>
                           <a id="dropdown-toggle" class="col-2 dropdown-toggle dropdown-toggle-split border-0 d-flex align-items-center" style="padding-left:4px;padding-top:8px;padding-bottom:8px;background-color:rgba(244, 244, 246, 1);" data-bs-toggle="dropdown" aria-expanded="false">
                               <!-- <span class="visually-hidden">Toggle Dropdown</span> -->
+                              <i class="fa-solid fa-chevron-down" style="font-size:10px;cursor: pointer;"></i>
+                          </a>
+                      </div>
+                      <ul class="dropdown-menu">
+                          <li>
+                              <a class="dropdown-item " style="padding-bottom: 5px !important;" href="intersecting-social-factors.php">交織性社會因素</a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item " style="padding-bottom: 5px !important;" href="form-and-function.php">形式與功能</a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item " style="padding-bottom: 5px !important;" href="experiences-and-services.php">體驗與服務</a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item " style="padding-bottom: 5px !important;" href="systems-and-infrastructures.php">系統與建設</a>
+                          </li>
+                          <li>
+                              <a class="dropdown-item " style="padding-bottom: 5px !important;" href="paradigms-and-purpose.php">典範與目的</a>
+                          </li>
+                      </ul>
+
+                  </li>
+
+                  <!-- Example split danger button -->
+                  <!-- <li class="nav-item  me-2">
+                      <div style="position: relative;display:inline-flex">
+                          <a class=" nav-link col-10" id="nav-menu"  href="digital-experience.php" style="border-radius: unset;">
+                              數位體驗
+                          </a>
+                          <a id="dropdown-toggle" class="col-2 dropdown-toggle dropdown-toggle-split border-0 d-flex align-items-center" style="padding-left:4px;padding-top:8px;padding-bottom:8px;background-color:rgba(244, 244, 246, 1);" data-bs-toggle="dropdown" aria-expanded="false">
+                            
                               <i class="fa-solid fa-chevron-down" style="font-size:10px;"></i>
                           </a>
                       </div>
+                  
                       <ul class="dropdown-menu">
                           <li>
                               <a class="dropdown-item d-flex justify-content-center align-items-center" style="padding-bottom: 5px !important;" href="intersecting-social-factors.php">交織性社會因素</a>
@@ -54,7 +85,7 @@
                           </li>
                       </ul>
 
-                  </li>
+                  </li> -->
 
                   <!-- <li class="nav-item row  m-0">
                       <a type="button" class="nav-link col-10 pe-0" href="digital-experience.php" style="color:#1961d2 !important;">數位體驗</a>
@@ -75,7 +106,16 @@
                           </li>
                       </ul>
                   </li> -->
-
+                  <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown link
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                  </li> -->
 
                   <!-- <li class="nav-item dropdown">
                       <div class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button">
@@ -108,13 +148,15 @@
   </section>
 
   <script>
-      $('#navbarDropdownMenuLink').click(function() {
-          if ($('.dropdown-menu').css('display') == 'block') {
-              $('.dropdown-menu').css('display', 'none');
-          } else {
-              $('.dropdown-menu').css('display', 'block');
-          }
-      })
+      //   $('#navbarDropdownMenuLink').click(function() {
+      //       if ($('.dropdown-menu').css('display') == 'block') {
+      //           $('.dropdown-menu').css('display', 'none');
+      //       } else {
+      //           $('.dropdown-menu').css('display', 'block');
+      //       }
+      //   })
+
+
       $('#dropdown-toggle').click(function() {
           if ($('.dropdown-menu').css('display') == 'block') {
               $('.dropdown-menu').css('display', 'none');

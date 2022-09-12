@@ -31,7 +31,7 @@
 
         <div class="row" style="margin-top: 20px; margin-bottom: 20px">
             <h1 class=" display-3" style=" font-weight: bold; margin-bottom: 24px;margin-top: 10px">
-                關於我們 (國外)
+                關於我們 (原網站)
             </h1>
             <div class="row">
                 <div class="col-md-9 col-12">

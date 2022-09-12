@@ -41,18 +41,16 @@
         // $('#dropdown-toggle').addClass('c-active');
         $(".nav-link").each(function() {
             if (this.href == window.location.href && $(this).hasClass('nav-link')) {
-                console.log(this.href);
                 $(this).addClass("c-active");
             }
         });
         $("[href].dropdown-item").each(function() {
             if (this.href == window.location.href) {
                 console.log($('#navbarDropdownMenuLink'));
-                $('#nav-menu').addClass("c-active");
+                // $('#nav-menu').addClass("c-active");
                 // $('.dropdown-toggle').addClass('c-active');
                 $('#nav-menu').addClass("c-btn-active");
-                $('.dropdown-toggle').addClass('c-btn-active');
-
+                $('#dropdown-toggle').addClass('c-btn-active');
                 $(this).addClass("dropdown-item-active");
             }
         });
@@ -61,58 +59,11 @@
             // $('#dropdown-toggle').addClass('c-active');
             $('#dropdown-toggle').addClass('c-btn-active');
         }
-        $('#nav-menu').click(function() {
-            $(this).css('border-radius', 'unset');
-        })
+        // $('#nav-menu').click(function() {
+        //     $(this).css('border-radius', 'unset');
+        // })
     });
 
-    var navbar = document.querySelector('#nav')
-
-    window.onscroll = function() {
-
-        // pageYOffset or scrollY
-        // if (window.pageYOffset > 0) {
-        //     navbar.classList.add('scrolled')
-        // } else {
-        //     navbar.classList.remove('scrolled')
-        // }
-
-        // if (window.pageYOffset > 600) {
-        //     navbar.style.display = 'none';
-        // } else {
-        //     navbar.style.display = '';
-        // }
-        // var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-        // console.log('scrollTop', scrollTop);
-        // console.log('pageYOffset', pageYOffset);
-        // // console.log(scrollTop);
-        // if (scrollTop < window.pageYOffset) {
-        //     navbar.style.display = '';
-        // } else {
-        //     navbar.style.display = 'none';
-        // }
-    }
-
-    // function MouseWheel(e) {
-    //     // javascript: mctmp(0);
-    //     e = e || window.event;
-    //     if (!(e.wheelDelta <= 0 || e.detail > 0)) {
-    //         navbar.style.display = '';
-    //     } else {
-    //         navbar.style.display = 'none';
-    //     }
-    //     // alert(['scrolled ', ((e.wheelDelta <= 0 || e.detail > 0) ? 'down' : 'up')].join(''));
-    // }
-
-    // // hook event listener on window object
-    // if ('onmousewheel' in window) {
-    //     window.onmousewheel = MouseWheel;
-    // } else if ('onmousewheel' in document) {
-    //     document.onmousewheel = MouseWheel;
-    // } else if ('addEventListener' in window) {
-    //     window.addEventListener("mousewheel", MouseWheel, false);
-    //     window.addEventListener("DOMMouseScroll", MouseWheel, false);
-    // }
 </script>
 </body>
 
